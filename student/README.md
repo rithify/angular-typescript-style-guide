@@ -9,6 +9,17 @@ export interface Student {
   department?: string;
 }
 ```
+- student.component.ts
+
+```typescript
+  export class StudentComponent {
+    
+  }
+```
+- student.const.ts
+- 
+```
+```
 
 - student.service.ts
 
