@@ -30,4 +30,7 @@ export class StudentService {
 
 - student.enum.ts
 ```typescript
+export enum StudentDepartment {
+  COMPUTER_SCIENCE = 'COMPUTER_SCIENCE'
+}
 ```
