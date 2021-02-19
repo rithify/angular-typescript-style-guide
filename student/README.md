@@ -17,8 +17,9 @@ export interface Student {
   }
 ```
 - student.const.ts
-- 
+
 ```
+
 ```
 
 - student.service.ts
@@ -40,6 +41,7 @@ export class StudentService {
 ```
 
 - student.enum.ts
+
 ```typescript
 export enum StudentDepartment {
   COMPUTER_SCIENCE = 'COMPUTER_SCIENCE'
