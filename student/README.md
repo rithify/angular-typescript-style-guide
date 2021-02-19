@@ -19,7 +19,15 @@ export interface Student {
 - student.const.ts
 
 ```
-
+export const STUDENT_FORM: Student = [
+  {
+    name: null,
+    student_id: null,
+    current_year: null,
+    generation: null,
+    department: null
+  }
+];
 ```
 
 - student.service.ts
@@ -27,7 +35,7 @@ export interface Student {
 ```typescript
 @Injectable({ providedIn: 'root' })
 export class StudentService {
-  form;
+  form: Student[];
   baseForm;
   
   get() {}
